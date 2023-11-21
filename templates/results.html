@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Car Performance Prediction Results</h1>
+    </header>
+    <main>
+        <section class="results">
+            <h2>Your Predictions</h2>
+            <p>{{ predictions }}</p>
+            <a href="{% url 'home' %}" class="btn">Go Back to Calculator</a>
+        </section>
+    </main>
+</body>
+</html>
